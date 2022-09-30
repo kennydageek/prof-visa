@@ -45,7 +45,7 @@ function App() {
         </h1>
 
         <div className="hero-slide-container">
-          <div className="slide-group">
+          <div className="slide-group slide-group--1">
             <div className="slide-box">
               <p className="slide-title">Travelling from?</p>
               <div className="slide-info">
@@ -60,11 +60,11 @@ function App() {
                 <p className="slide-info__text">Nairobi, Kenya</p>
                 <img src={arrowdown} alt={arrowdown} />
               </div>
-              <img src={slidetrack} alt={'slidetrack'} class="slidetrack" />
+              <img src={slidetrack} alt={'slidetrack'} className="slidetrack" />
             </div>
           </div>
 
-          <div className="slide-group">
+          <div className="slide-group slide-group--2">
             <div className="slide-box">
               <p className="slide-title">Departure date</p>
               <div className="slide-info">
@@ -85,7 +85,7 @@ function App() {
             </div>
           </div>
 
-          <div className="slide-group">
+          <div className="slide-group slide-group--3">
             <div className="slide-box">
               <p className="slide-title">Travellers/Class</p>
               <div className="slide-info">
