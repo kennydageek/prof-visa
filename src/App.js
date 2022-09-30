@@ -3,6 +3,7 @@ import logo from './img/logo.svg';
 import arrowdown from './img/icons/arrow-down.svg';
 import slidetrack from './img/icons/slidetrack.svg';
 import next from './img/icons/next-slide.svg';
+import menu from './img/icons/menu.svg';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
             Sign Up
           </a>
         </div>
+        <img src={menu} alt={'menu'} className="menu hidden" />
       </nav>
 
       <header className="header">

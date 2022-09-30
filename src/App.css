@@ -75,6 +75,12 @@ body {
   gap: 3rem;
 }
 
+.menu {
+  width: 3rem;
+  height: 2rem;
+  align-self: center;
+}
+
 /*========== btn component =========*/
 .btn {
   font-size: 1.6rem;
@@ -249,3 +255,20 @@ body {
   border-radius: 3rem;
 }
 /* Media queries */
+
+/* MQ for navigation */
+@media screen and (max-width: 1000px) {
+  .navigation {
+    justify-content: space-between;
+    padding-right: 5rem;
+  }
+  .nav-links {
+    display: none;
+  }
+  .navigation-cta {
+    display: none;
+  }
+  .menu {
+    display: block !important;
+  }
+}
