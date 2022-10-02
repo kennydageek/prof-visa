@@ -205,6 +205,34 @@ function App() {
           </div>
         </div>
       </section>
+
+      <section className="section-topdest">
+        <h1 className="section-heading text-center">
+          Top <span className="color-primary">Destinations</span>
+        </h1>
+
+        <div className="section-topdest-container">
+          <div className="topdest-card">
+            <p className="topdest-card__caption">Kenya (E-visa)</p>
+          </div>
+
+          <div className="topdest-card topdest-card--uae">
+            <p className="topdest-card__caption topdest-card__caption--blue">
+              United Arab Emirates
+            </p>
+          </div>
+
+          <div className="topdest-card topdest-card--nig">
+            <p className="topdest-card__caption">Nigeria (visa on arrival)</p>
+          </div>
+
+          <div className="topdest-card topdest-card--egy">
+            <p className="topdest-card__caption topdest-card__caption--blue">
+              Egypt
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

@@ -247,6 +247,47 @@ body {
   line-height: 2.5rem;
 }
 
+/*======= Top destination card component  =======*/
+.topdest-card {
+  position: relative;
+  width: 29rem;
+  height: 27.8rem;
+  /* background: white; */
+  background-image: url('./img/Kenya.svg');
+  background-size: cover;
+  margin: 2rem;
+  border-radius: 2.4rem 2.4rem 2rem 2rem;
+}
+
+.topdest-card--uae {
+  background-image: url('./img/UAE.svg');
+}
+
+.topdest-card--nig {
+  background-image: url('./img/Nigeria.svg');
+}
+
+.topdest-card--egy {
+  background-image: url('./img/Egypt.svg');
+}
+
+.topdest-card__caption {
+  width: 100%;
+  background-color: #d19439;
+  border-radius: 0 0 2rem 2rem;
+  position: absolute;
+  bottom: 0;
+  font-size: 2rem;
+  text-align: center;
+  /* font-weight: 400; */
+  color: white;
+  line-height: 5rem;
+}
+
+.topdest-card__caption--blue {
+  background-color: #162e40;
+}
+
 /*Typography */
 .heading__primary {
   color: #f5f5f5;
@@ -373,6 +414,19 @@ body {
 
 .section-heading--service {
   margin-bottom: 7rem;
+}
+
+/*=========== Section-Topdest ============*/
+.section-topdest {
+  min-height: 30rem;
+  padding: 5rem 16rem;
+  /* background: red; */
+}
+
+.section-topdest-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 /* Media queries */
@@ -510,5 +564,25 @@ body {
 
   .service-card:not(:last-of-type) {
     margin-right: 0;
+  }
+}
+
+/* MQ for section-topdest */
+@media screen and (max-width: 984px) {
+  .section-topdest {
+    padding: 5rem 5rem;
+  }
+  .section-topdest-container {
+    /* flex-wrap: nowrap; */
+    /* flex-direction: column; */
+  }
+  .topdest-card {
+    flex-shrink: 1;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .topdest-card {
+    width: 100%;
   }
 }
