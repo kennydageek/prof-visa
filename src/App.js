@@ -4,6 +4,8 @@ import arrowdown from './img/icons/arrow-down.svg';
 import slidetrack from './img/icons/slidetrack.svg';
 import next from './img/icons/next-slide.svg';
 import menu from './img/icons/menu.svg';
+import aboutImg from './img/chess-img.svg';
+import doodle from './img/doodle.svg';
 
 function App() {
   return (
@@ -38,7 +40,6 @@ function App() {
         </div>
         <img src={menu} alt={'menu'} className="menu hidden" />
       </nav>
-
       <header className="header">
         <h1 className="heading__primary">
           PROMPT AND EASY STEPS FOR VISA PROCESSING
@@ -81,7 +82,7 @@ function App() {
                 <img src={arrowdown} alt={arrowdown} />
               </div>
               <p className="slide-footer">Thursday</p>
-              {/* <img src={slidetrack} alt={'slidetrack'} class="slidetrack" /> */}
+              {/* <img src={slidetrack} alt={'slidetrack'} className="slidetrack" /> */}
             </div>
           </div>
 
@@ -102,7 +103,7 @@ function App() {
                 <img src={arrowdown} alt={arrowdown} />
               </div>
               {/* <p className="slide-footer">Thursday</p> */}
-              {/* <img src={slidetrack} alt={'slidetrack'} class="slidetrack" /> */}
+              {/* <img src={slidetrack} alt={'slidetrack'} className="slidetrack" /> */}
             </div>
           </div>
 
@@ -130,6 +131,28 @@ function App() {
           </div>
         </div>
       </header>
+      <section className="section-about">
+        <div className="section-container">
+          <div className="section-text">
+            <h1 className="section-heading">
+              Africa's <span class="color-primary">leading</span> visa
+              consultants
+            </h1>
+            <p className="section-paragraph">
+              VISAPROF is a pioneer in Nigeria's online travel industry. The
+              organization started in 2020 on the basis of an idea conceived by
+              its promoters. VISAPROF is trusted by over 200 clients. We assist
+              applicants in navigating the visa process to any country in which
+              they choose to stay or visit.
+            </p>
+          </div>
+          <div className="section-image">
+            <img src={aboutImg} alt="man" className="section-image__img" />
+
+            <img src={doodle} alt="doodle" className="doodle" />
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
