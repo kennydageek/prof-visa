@@ -6,6 +6,10 @@ import next from './img/icons/next-slide.svg';
 import menu from './img/icons/menu.svg';
 import aboutImg from './img/chess-img.svg';
 import doodle from './img/doodle.svg';
+import consultation from './img/icons/consultation-icon.svg';
+import resources from './img/icons/resources-icon.svg';
+import support from './img/icons/support-icon.svg';
+import assessment from './img/icons/free-assessment-icon.svg';
 
 function App() {
   return (
@@ -131,6 +135,9 @@ function App() {
           </div>
         </div>
       </header>
+
+      {/* Section About */}
+
       <section className="section-about">
         <div className="section-container">
           <div className="section-text">
@@ -150,6 +157,51 @@ function App() {
             <img src={aboutImg} alt="man" className="section-image__img" />
 
             <img src={doodle} alt="doodle" className="doodle" />
+          </div>
+        </div>
+      </section>
+
+      {/* Section-services */}
+
+      <section className="section-service">
+        <h1 className="section-heading section-heading--service text-center">
+          What we offer our clients
+        </h1>
+        <div className="section-service-container">
+          <div className="service-card">
+            <img src={consultation} alt="" className="service-card__image" />
+            <p className="service-card__heading">Visa consultation</p>
+            <p className="service-card__paragraph">
+              Our qualified and dependable visa consultants can assist you in
+              obtaining a favorable result in your case.
+            </p>
+          </div>
+
+          <div className="service-card">
+            <img src={resources} alt="" className="service-card__image" />
+            <p className="service-card__heading">Resources</p>
+            <p className="service-card__paragraph">
+              We provide our clients with important information and resources
+              and also the travel requrements needed.
+            </p>
+          </div>
+
+          <div className="service-card">
+            <img src={support} alt="" className="service-card__image" />
+            <p className="service-card__heading">Support</p>
+            <p className="service-card__paragraph">
+              We also provide required document support to ease the application
+              process.
+            </p>
+          </div>
+
+          <div className="service-card">
+            <img src={assessment} alt="" className="service-card__image" />
+            <p className="service-card__heading">Free Assessment</p>
+            <p className="service-card__paragraph">
+              We help those who want to know their eligibility status by
+              assisting with free visa assessment.
+            </p>
           </div>
         </div>
       </section>
