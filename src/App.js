@@ -238,7 +238,7 @@ function App() {
 
       {/* Section Popular Destination */}
 
-      <div className="section-popdest">
+      <div className="section-topdest section-popdest">
         <h1 className="section-heading text-center">Popular Destinations</h1>
         <div className="section-topdest-container">
           <div className="topdest-card topdest-card--popdest topdest-card--popdest--uae">
@@ -251,6 +251,39 @@ function App() {
               <p className="topdest-card__time">Processing time:</p>
               <p className="topdest-card__day">2-3 working days</p>
               <p className="topdest-card__amount">₦30,000 per person</p>
+            </div>
+          </div>
+
+          <div className="topdest-card topdest-card--popdest topdest-card--popdest--mal">
+            <div className="topdest-card-heading">
+              <p className="topdest-card-heading__heading">Maldives</p>
+            </div>
+            <div className="topdest-card-footer">
+              <p className="topdest-card__time">Processing time:</p>
+              <p className="topdest-card__day">2-3 working days</p>
+              <p className="topdest-card__amount">₦28,000 per person</p>
+            </div>
+          </div>
+
+          <div className="topdest-card topdest-card--popdest topdest-card--popdest--sou">
+            <div className="topdest-card-heading">
+              <p className="topdest-card-heading__heading">South Africa</p>
+            </div>
+            <div className="topdest-card-footer">
+              <p className="topdest-card__time">Processing time:</p>
+              <p className="topdest-card__day">2-3 working days</p>
+              <p className="topdest-card__amount">₦28,000 per person</p>
+            </div>
+          </div>
+
+          <div className="topdest-card topdest-card--popdest topdest-card--popdest--jor">
+            <div className="topdest-card-heading">
+              <p className="topdest-card-heading__heading">Jordan</p>
+            </div>
+            <div className="topdest-card-footer">
+              <p className="topdest-card__time">Processing time:</p>
+              <p className="topdest-card__day">2-3 working days</p>
+              <p className="topdest-card__amount">₦28,000 per person</p>
             </div>
           </div>
         </div>
