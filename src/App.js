@@ -11,6 +11,8 @@ import resources from './img/icons/resources-icon.svg';
 import support from './img/icons/support-icon.svg';
 import assessment from './img/icons/free-assessment-icon.svg';
 import leke from './img/leke.png';
+import matthew from './img/matthew.png';
+import debbie from './img/debbie.png';
 import stars from './img/icons/5-stars.svg';
 import apostrophe from './img/icons/apostrophe.svg';
 import aposclose from './img/icons/apostrophe (1).svg';
@@ -290,33 +292,50 @@ function App() {
               <p className="topdest-card__amount">₦28,000 per person</p>
             </div>
           </div>
+        </div>
+      </div>
 
-          <div className="section-review">
-            <h1 className="section-heading">
-              What <span class="color-primary">our clients</span> have to say
-            </h1>
+      <div className="section-review">
+        <h1 className="section-heading text-center">
+          What <span class="color-primary">our clients</span> have to say
+        </h1>
 
-            <div className="section-review-container">
-              <div className="review-card">
-                <img src={leke} alt="" className="review-card__image" />
-                <p className="review-card__name">Mr. Leke</p>
-                <p className="review-card__review">
-                  I'm happy I chose to process my visa with you guys, not a
-                  single regret. Visa came right on time with no hassle.
-                </p>
-                <img src={stars} alt="" className="review-card__rating" />
-                <img
-                  src={apostrophe}
-                  alt=""
-                  className="review-card__open-quote"
-                />
-                <img
-                  src={aposclose}
-                  alt=""
-                  className="review-card__close-quote"
-                />
-              </div>
-            </div>
+        <div className="section-review-container">
+          <div className="review-card">
+            <img src={leke} alt="" className="review-card__image" />
+            <p className="review-card__name">Mr. Leke</p>
+            <p className="review-card__review">
+              I'm happy I chose to process my visa with you guys, not a single
+              regret. Visa came right on time with no hassle.
+            </p>
+            <img src={stars} alt="" className="review-card__rating" />
+            <img src={apostrophe} alt="" className="review-card__open-quote" />
+            <img src={aposclose} alt="" className="review-card__close-quote" />
+          </div>
+
+          <div className="review-card">
+            <img src={matthew} alt="" className="review-card__image" />
+            <p className="review-card__name">Matthew eke</p>
+            <p className="review-card__review">
+              The processing was fast and I got the visa right on time. Service
+              is 100. Will defintely be doing more business with you.
+            </p>
+            <img src={stars} alt="" className="review-card__rating" />
+            <img src={apostrophe} alt="" className="review-card__open-quote" />
+            <img src={aposclose} alt="" className="review-card__close-quote" />
+          </div>
+
+          <div className="review-card">
+            <img src={debbie} alt="" className="review-card__image" />
+            <p className="review-card__name">Matthew eke</p>
+            <p className="review-card__review">
+              VISAPROF for the win... Wow!! How were you able to do this so
+              fast. If i didn't get this visa, I would have had to cancel my
+              trip
+            </p>
+            <img src={stars} alt="" className="review-card__rating" />
+            <img src={apostrophe} alt="" className="review-card__open-quote" />
+            <img src={aposclose} alt="" className="review-card__close-quote" />
           </div>
         </div>
       </div>

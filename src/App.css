@@ -380,6 +380,9 @@ body {
   box-shadow: 0px 0px 5px rgba(60, 55, 52, 0.25);
   text-align: center;
   transition: all 0.2s ease-in-out;
+  margin-top: 8rem;
+  margin-right: 3rem;
+  /* flex-shrink: 1; */
 }
 
 .review-card:hover {
@@ -579,8 +582,17 @@ body {
 
 /*============= Section-review  ============*/
 .section-review {
+  background: #e5e5e5;
+
   min-height: 30rem;
   padding: 10rem 0;
+}
+
+.section-review-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 5rem;
 }
 
 /* Media queries */
@@ -741,5 +753,18 @@ body {
 @media screen and (max-width: 500px) {
   .topdest-card {
     width: 100%;
+  }
+}
+
+/* MQ for section-review */
+@media screen and (max-width: 686px) {
+  .section-review-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .review-card {
+    margin-right: 0;
+    width: 75%;
   }
 }
