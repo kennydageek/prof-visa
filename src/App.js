@@ -16,6 +16,8 @@ import debbie from './img/debbie.png';
 import stars from './img/icons/5-stars.svg';
 import apostrophe from './img/icons/apostrophe.svg';
 import aposclose from './img/icons/apostrophe (1).svg';
+import topcircle from './img/circle-vector (1).svg';
+import bottomcircle from './img/circle-vector.svg';
 
 function App() {
   return (
@@ -296,6 +298,8 @@ function App() {
       </div>
 
       <div className="section-review">
+        <img src={topcircle} alt="" className="top-semicircle" />
+        <img src={bottomcircle} alt="" className="bottom-semicircle" />
         <h1 className="section-heading text-center">
           What <span class="color-primary">our clients</span> have to say
         </h1>

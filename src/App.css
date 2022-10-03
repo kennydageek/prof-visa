@@ -582,12 +582,21 @@ body {
 
 /*============= Section-review  ============*/
 .section-review {
+  position: relative;
   background: #e5e5e5;
-
   min-height: 30rem;
   padding: 10rem 0;
 }
 
+.top-semicircle {
+  position: absolute;
+  right: 0;
+}
+
+.bottom-semicircle {
+  position: absolute;
+  bottom: 0;
+}
 .section-review-container {
   display: flex;
   justify-content: center;
