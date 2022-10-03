@@ -10,6 +10,10 @@ import consultation from './img/icons/consultation-icon.svg';
 import resources from './img/icons/resources-icon.svg';
 import support from './img/icons/support-icon.svg';
 import assessment from './img/icons/free-assessment-icon.svg';
+import leke from './img/leke.png';
+import stars from './img/icons/5-stars.svg';
+import apostrophe from './img/icons/apostrophe.svg';
+import aposclose from './img/icons/apostrophe (1).svg';
 
 function App() {
   return (
@@ -284,6 +288,34 @@ function App() {
               <p className="topdest-card__time">Processing time:</p>
               <p className="topdest-card__day">2-3 working days</p>
               <p className="topdest-card__amount">₦28,000 per person</p>
+            </div>
+          </div>
+
+          <div className="section-review">
+            <h1 className="section-heading">
+              What <span class="color-primary">our clients</span> have to say
+            </h1>
+
+            <div className="section-review-container">
+              <div className="review-card">
+                <img src={leke} alt="" className="review-card__image" />
+                <p className="review-card__name">Mr. Leke</p>
+                <p className="review-card__review">
+                  I'm happy I chose to process my visa with you guys, not a
+                  single regret. Visa came right on time with no hassle.
+                </p>
+                <img src={stars} alt="" className="review-card__rating" />
+                <img
+                  src={apostrophe}
+                  alt=""
+                  className="review-card__open-quote"
+                />
+                <img
+                  src={aposclose}
+                  alt=""
+                  className="review-card__close-quote"
+                />
+              </div>
             </div>
           </div>
         </div>

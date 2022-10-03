@@ -323,7 +323,6 @@ body {
   background-image: url('./img/UAE.svg');
   background-position-x: center;
   background-position-y: right;
-
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -350,9 +349,6 @@ body {
   background-size: cover;
   background-position-x: center;
   background-position-y: top;
-  /* background-size: 160%; */
-  /* background-position-y: top; */
-  /* background-position-x: center; */
 }
 
 .topdest-card__caption {
@@ -370,6 +366,65 @@ body {
 
 .topdest-card__caption--blue {
   background-color: #162e40;
+}
+
+/*======== Review-card component ========*/
+.review-card {
+  position: relative;
+  width: 40rem;
+  padding: 7.4rem 8.5rem;
+  background-color: #fff;
+  border-radius: 2rem;
+  border: 2px solid #fff;
+  backdrop-filter: blur(1.25rem);
+  box-shadow: 0px 0px 5px rgba(60, 55, 52, 0.25);
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.review-card:hover {
+  box-shadow: 0px 4px 24px rgba(60, 55, 52, 0.25);
+}
+
+.review-card__image {
+  position: absolute;
+  top: -3rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.review-card__name {
+  font-size: 1.6rem;
+  color: #162e40;
+  line-height: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+}
+
+.review-card__review {
+  color: #222;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  /* margin-bottom: 2.3rem; */
+}
+
+.review-card__rating {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 3rem;
+}
+
+.review-card__open-quote {
+  position: absolute;
+  top: 10rem;
+  left: 4rem;
+}
+
+.review-card__close-quote {
+  position: absolute;
+  right: 4rem;
+  bottom: 7rem;
 }
 
 /*Typography */
@@ -520,6 +575,12 @@ body {
 /*============= Section-Popdest  ===========*/
 .section-popdest {
   background: #e5e5e5;
+}
+
+/*============= Section-review  ============*/
+.section-review {
+  min-height: 30rem;
+  padding: 10rem 0;
 }
 
 /* Media queries */
