@@ -206,6 +206,8 @@ function App() {
         </div>
       </section>
 
+      {/* Section Top destination */}
+
       <section className="section-topdest">
         <h1 className="section-heading text-center">
           Top <span className="color-primary">Destinations</span>
@@ -233,6 +235,26 @@ function App() {
           </div>
         </div>
       </section>
+
+      {/* Section Popular Destination */}
+
+      <div className="section-popdest">
+        <h1 className="section-heading text-center">Popular Destinations</h1>
+        <div className="section-topdest-container">
+          <div className="topdest-card topdest-card--popdest topdest-card--popdest--uae">
+            <div className="topdest-card-heading">
+              <p className="topdest-card-heading__heading">
+                United Arab Emirates
+              </p>
+            </div>
+            <div className="topdest-card-footer">
+              <p className="topdest-card__time">Processing time:</p>
+              <p className="topdest-card__day">2-3 working days</p>
+              <p className="topdest-card__amount">₦30,000 per person</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
