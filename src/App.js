@@ -18,6 +18,7 @@ import apostrophe from './img/icons/apostrophe.svg';
 import aposclose from './img/icons/apostrophe (1).svg';
 import topcircle from './img/circle-vector (1).svg';
 import bottomcircle from './img/circle-vector.svg';
+import addIcon from './img/icons/add--icon.svg';
 
 function App() {
   return (
@@ -343,6 +344,62 @@ function App() {
           </div>
         </div>
       </div>
+
+      <section className="section-faq">
+        <h1 className="section-heading text-center">
+          Frequently asked <span class="color-primary">questions</span>
+        </h1>
+
+        <div className="section-faq-container">
+          <div className="faq-box">
+            <p className="faq-box__heading">
+              What are the requirements to get a visa?
+            </p>
+            <img src={addIcon} alt="" className="faq-box__img" />
+          </div>
+          <hr />
+
+          <div className="faq-box">
+            <p className="faq-box__heading">
+              How long does the visa processing take?
+            </p>
+            <img src={addIcon} alt="" className="faq-box__img" />
+          </div>
+          <hr />
+
+          <div className="faq-box">
+            <p className="faq-box__heading">
+              Can I still be approved if I have no travel history?
+            </p>
+            <img src={addIcon} alt="" className="faq-box__img" />
+          </div>
+          <hr />
+
+          <div className="faq-box">
+            <p className="faq-box__heading">
+              How does VISAPROF obtain a visa for me?
+            </p>
+            <img src={addIcon} alt="" className="faq-box__img" />
+          </div>
+          <hr />
+
+          <div className="faq-box">
+            <p className="faq-box__heading">
+              Do I need my passport at early stages of application?
+            </p>
+            <img src={addIcon} alt="" className="faq-box__img" />
+          </div>
+          <hr />
+
+          <div className="faq-box">
+            <p className="faq-box__heading">
+              Must I be vaccinated to travel abroad?
+            </p>
+            <img src={addIcon} alt="" className="faq-box__img" />
+          </div>
+          <hr />
+        </div>
+      </section>
     </div>
   );
 }
