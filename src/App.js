@@ -459,6 +459,12 @@ function App() {
           </div>
         </div>
       </footer>
+
+      <section className="section-badge">
+        <p class="text-center">
+          &copy; 2022 VISAPROF Visa processing firm. All rights reserved
+        </p>
+      </section>
     </div>
   );
 }
