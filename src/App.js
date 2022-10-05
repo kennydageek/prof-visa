@@ -19,6 +19,7 @@ import aposclose from './img/icons/apostrophe (1).svg';
 import topcircle from './img/circle-vector (1).svg';
 import bottomcircle from './img/circle-vector.svg';
 import addIcon from './img/icons/add--icon.svg';
+import socials from './img/icons/socials.svg';
 
 function App() {
   return (
@@ -429,6 +430,35 @@ function App() {
           <button className="btn btn__primary form-cta">Send</button>
         </form>
       </section>
+
+      <footer className="footer">
+        <hr />
+        <div className="footer-container">
+          <div className="footer-socials footer-item">
+            <img src={socials} alt="" className="footer-socials__social" />
+          </div>
+          <div className="footer-company footer-item">
+            <p className="footer__heading">Company</p>
+            <p className="footer__list">Home</p>
+            <p className="footer__list">About Us</p>
+          </div>
+          <div className="footer-legal footer-item">
+            <p className="footer__heading">Legal</p>
+            <p className="footer__list">Terms of service</p>
+            <p className="footer__list">Privacy policy</p>
+          </div>
+          <div className="footer-community footer-item">
+            <p className="footer__heading">Community</p>
+            <p className="footer__list">Blog</p>
+            <p className="footer__list">FAQs</p>
+          </div>
+          <div className="footer-contact footer-item">
+            <p className="footer__heading">Contact</p>
+            <p className="footer__list">info@visaprof.com</p>
+            <p className="footer__list">07017401336</p>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
