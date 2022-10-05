@@ -333,7 +333,7 @@ function App() {
 
           <div className="review-card">
             <img src={debbie} alt="" className="review-card__image" />
-            <p className="review-card__name">Matthew eke</p>
+            <p className="review-card__name">Debbie</p>
             <p className="review-card__review">
               VISAPROF for the win... Wow!! How were you able to do this so
               fast. If i didn't get this visa, I would have had to cancel my
