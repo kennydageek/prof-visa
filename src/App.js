@@ -400,6 +400,35 @@ function App() {
           <hr />
         </div>
       </section>
+
+      <section className="section-contact">
+        <h1 className="section-heading text-center mb-3">
+          Get free assessment today
+        </h1>
+        <p className="section-title text-center">
+          Feel free to enquire about any questions you have
+        </p>
+
+        <form action="" className="form-container">
+          <input
+            type="text"
+            name=""
+            id="name"
+            placeholder="Full name"
+            required
+          />
+          <input type="email" name="" id="email" placeholder="email address" />
+          <textarea
+            name=""
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Type message here"
+          ></textarea>
+
+          <button className="btn btn__primary form-cta">Send</button>
+        </form>
+      </section>
     </div>
   );
 }

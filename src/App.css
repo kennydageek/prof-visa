@@ -450,6 +450,9 @@ body {
 .text-center {
   text-align: center;
 }
+.mb-3 {
+  margin-bottom: 0.4rem !important;
+}
 /* layout */
 /*===== header ====== */
 .header {
@@ -651,6 +654,61 @@ hr {
 .faq-box__img {
   cursor: pointer;
   align-self: center;
+}
+
+/*============ Section-contact ============*/
+
+.section-contact {
+  min-height: 30rem;
+  background-color: #e5e5e5;
+  background-image: url('./img/background-slur.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 5rem 0;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  color: #d19439;
+  margin-bottom: 5rem;
+}
+
+.form-container {
+  width: 70%;
+  max-width: 65.3rem;
+  /* background: red; */
+  margin: 0 auto;
+}
+
+input,
+textarea {
+  display: block;
+  width: 65.3rem;
+  max-width: 100%;
+  padding: 1.8rem 6rem;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+  border: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  color: #757575;
+  font-weight: 400;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+.form-cta {
+  display: block;
+  margin: 0 auto;
 }
 
 /* Media queries */
